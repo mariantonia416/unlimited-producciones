@@ -1,0 +1,22 @@
+.image-scale {
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: all 1s;
+  }
+}
+
+.color-animation {
+  animation-name: color-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes color-animation{
+  from {
+      position: relative;
+      top: 40px;
+  }
+  to {
+      position: relative;
+      top: 0px;
+  }
+}

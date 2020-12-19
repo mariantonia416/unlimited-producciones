@@ -1,0 +1,27 @@
+.small-text {
+  font-size: $size-small-text;
+}
+
+.medium-text {
+  font-size: $size-medium-text;
+}
+
+.large-text {
+  font-size: $size-large-text;
+}
+
+@media (max-width: 768px) {
+
+  .small-text {
+    font-size: $size-small-text;
+  }
+  
+  .medium-text {
+    font-size: $size-medium-text;
+  }
+  
+  .large-text {
+    font-size: $size-large-text - 1;
+  }
+
+}

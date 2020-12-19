@@ -1,0 +1,15 @@
+.bg-black {
+  background-color: $black-color;
+}
+.bg-blue {
+  background-color: $black-color;
+}
+.bg-gradient-blue {
+  background-image: linear-gradient(to left, $blue-color, $black-color)
+}
+.bg-gradient-gray {
+  background-image: linear-gradient(to left, $dark-gray-color, $black-color)
+}
+.invert {
+  filter: invert(80%);
+}
