@@ -1,0 +1,26 @@
+.btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0;
+}
+
+.active {
+  color: $blue-color !important;
+}
+
+.nav-link:hover {
+   color: $blue-color !important;
+  
+}
+
+.btn-primary {
+  background-color: $blue-color;
+  border: 0;
+  &:hover {
+    background-color: $dark-gray-color;
+  }
+}
+
+.btn-secondary {
+  background-color: $black-color;
+  border: 0;
+}

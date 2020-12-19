@@ -1,0 +1,103 @@
+div#home {
+  height: 700px; }
+
+@media (max-width: 768px) {
+  div#home {
+    height: 500px; } }
+
+.small-text {
+  font-size: 1.3rem; }
+
+.medium-text {
+  font-size: 2rem; }
+
+.large-text {
+  font-size: 3.5rem; }
+
+@media (max-width: 768px) {
+  .small-text {
+    font-size: 1.3rem; }
+  .medium-text {
+    font-size: 2rem; }
+  .large-text {
+    font-size: 2.5rem; } }
+
+.bg-black {
+  background-color: #151515; }
+
+.bg-blue {
+  background-color: #151515; }
+
+.bg-gradient-blue {
+  background-image: linear-gradient(to left, #0485bd, #151515); }
+
+.bg-gradient-gray {
+  background-image: linear-gradient(to left, #363535, #151515); }
+
+.invert {
+  filter: invert(80%); }
+
+.bg-video {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 700px; }
+
+.content-video {
+  position: absolute;
+  max-width: 300%;
+  width: 100%; }
+
+@media (max-width: 992px) {
+  .content-video {
+    width: 150%; } }
+
+@media (max-width: 768px) {
+  .bg-video {
+    height: 500px; }
+  .content-video {
+    width: 280%; } }
+
+@media (max-width: 576px) {
+  .content-video {
+    width: 300%; } }
+
+.image-scale:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s; }
+
+.color-animation {
+  animation-name: color-animation;
+  animation-duration: 1.5s; }
+
+@keyframes color-animation {
+  from {
+    position: relative;
+    top: 40px; }
+  to {
+    position: relative;
+    top: 0px; } }
+
+.btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0; }
+
+.active {
+  color: #0485bd !important; }
+
+.nav-link:hover {
+  color: #0485bd !important; }
+
+.btn-primary {
+  background-color: #0485bd;
+  border: 0; }
+  .btn-primary:hover {
+    background-color: #363535; }
+
+.btn-secondary {
+  background-color: #151515;
+  border: 0; }

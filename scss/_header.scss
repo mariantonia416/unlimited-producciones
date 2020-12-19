@@ -1,0 +1,9 @@
+div#home {
+  height: 700px; 
+}
+
+@media(max-width: 768px){
+  div#home {
+   height: 500px;
+  }
+}

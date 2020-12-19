@@ -1,0 +1,35 @@
+.bg-video{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 700px;
+ }
+ 
+ .content-video{
+  position: absolute;
+  max-width: 300%;
+  width: 100%;
+ }
+ 
+ @media(max-width: 992px){
+  .content-video{
+   width: 150%;
+  }
+ }
+ @media(max-width: 768px){
+   .bg-video {
+    height: 500px;
+   }
+  .content-video{
+   width: 280%;
+  }
+ }
+ @media(max-width: 576px){
+  .content-video{ 
+   width: 300%;
+  }
+ }
